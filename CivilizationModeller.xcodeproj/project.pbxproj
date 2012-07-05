@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69C1D1A415A5CCC5007C6F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C1D1A315A5CCC5007C6F94 /* Foundation.framework */; };
+		69C1D1A715A5CCC5007C6F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C1D1A615A5CCC5007C6F94 /* main.m */; };
+		69C1D1AB15A5CCC5007C6F94 /* CivilizationModeller.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69C1D1AA15A5CCC5007C6F94 /* CivilizationModeller.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		69C1D19D15A5CCC5007C6F94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				69C1D1AB15A5CCC5007C6F94 /* CivilizationModeller.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		69C1D19F15A5CCC5007C6F94 /* CivilizationModeller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CivilizationModeller; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C1D1A315A5CCC5007C6F94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69C1D1A615A5CCC5007C6F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69C1D1A915A5CCC5007C6F94 /* CivilizationModeller-Prefix.pch */ = {isa = PBXFileReference; path = "CivilizationModeller-Prefix.pch"; sourceTree = "<group>"; };
+		69C1D1AA15A5CCC5007C6F94 /* CivilizationModeller.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CivilizationModeller.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C1D19C15A5CCC5007C6F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C1D1A415A5CCC5007C6F94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69C1D19415A5CCC5007C6F94 = {
+			isa = PBXGroup;
+			children = (
+				69C1D1A515A5CCC5007C6F94 /* CivilizationModeller */,
+				69C1D1A215A5CCC5007C6F94 /* Frameworks */,
+				69C1D1A015A5CCC5007C6F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69C1D1A015A5CCC5007C6F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C1D19F15A5CCC5007C6F94 /* CivilizationModeller */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C1D1A215A5CCC5007C6F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C1D1A315A5CCC5007C6F94 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69C1D1A515A5CCC5007C6F94 /* CivilizationModeller */ = {
+			isa = PBXGroup;
+			children = (
+				69C1D1A615A5CCC5007C6F94 /* main.m */,
+				69C1D1AA15A5CCC5007C6F94 /* CivilizationModeller.1 */,
+				69C1D1A815A5CCC5007C6F94 /* Supporting Files */,
+			);
+			path = CivilizationModeller;
+			sourceTree = "<group>";
+		};
+		69C1D1A815A5CCC5007C6F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C1D1A915A5CCC5007C6F94 /* CivilizationModeller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C1D19E15A5CCC5007C6F94 /* CivilizationModeller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C1D1AE15A5CCC5007C6F94 /* Build configuration list for PBXNativeTarget "CivilizationModeller" */;
+			buildPhases = (
+				69C1D19B15A5CCC5007C6F94 /* Sources */,
+				69C1D19C15A5CCC5007C6F94 /* Frameworks */,
+				69C1D19D15A5CCC5007C6F94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CivilizationModeller;
+			productName = CivilizationModeller;
+			productReference = 69C1D19F15A5CCC5007C6F94 /* CivilizationModeller */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C1D19615A5CCC5007C6F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 69C1D19915A5CCC5007C6F94 /* Build configuration list for PBXProject "CivilizationModeller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69C1D19415A5CCC5007C6F94;
+			productRefGroup = 69C1D1A015A5CCC5007C6F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C1D19E15A5CCC5007C6F94 /* CivilizationModeller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C1D19B15A5CCC5007C6F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C1D1A715A5CCC5007C6F94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69C1D1AC15A5CCC5007C6F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69C1D1AD15A5CCC5007C6F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69C1D1AF15A5CCC5007C6F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CivilizationModeller/CivilizationModeller-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69C1D1B015A5CCC5007C6F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CivilizationModeller/CivilizationModeller-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C1D19915A5CCC5007C6F94 /* Build configuration list for PBXProject "CivilizationModeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C1D1AC15A5CCC5007C6F94 /* Debug */,
+				69C1D1AD15A5CCC5007C6F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C1D1AE15A5CCC5007C6F94 /* Build configuration list for PBXNativeTarget "CivilizationModeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C1D1AF15A5CCC5007C6F94 /* Debug */,
+				69C1D1B015A5CCC5007C6F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C1D19615A5CCC5007C6F94 /* Project object */;
+}
