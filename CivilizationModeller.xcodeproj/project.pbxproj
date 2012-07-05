@@ -29,7 +29,7 @@
 		69C1D19F15A5CCC5007C6F94 /* CivilizationModeller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CivilizationModeller; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C1D1A315A5CCC5007C6F94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69C1D1A615A5CCC5007C6F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69C1D1A915A5CCC5007C6F94 /* CivilizationModeller-Prefix.pch */ = {isa = PBXFileReference; path = "CivilizationModeller-Prefix.pch"; sourceTree = "<group>"; };
+		69C1D1A915A5CCC5007C6F94 /* CivilizationModeller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CivilizationModeller-Prefix.pch"; sourceTree = "<group>"; };
 		69C1D1AA15A5CCC5007C6F94 /* CivilizationModeller.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CivilizationModeller.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
