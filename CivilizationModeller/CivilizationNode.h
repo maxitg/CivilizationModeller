@@ -1,5 +1,5 @@
 //
-//  main.m
+//  CivilizationNode.h
 //  CivilizationModeller
 //
 //  Created by Maxim Piskunov on 05.07.2012.
@@ -8,11 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[])
-{
-    @autoreleasepool {
-        
-    }
-    return 0;
-}
+@interface CivilizationNode : NSObject
 
+- (void) linkTo:(CivilizationNode*)Node;
+- (void) unlinkFrom:(CivilizationNode*)Node;
+
+@end

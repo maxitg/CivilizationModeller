@@ -10,6 +10,8 @@
 		69C1D1A415A5CCC5007C6F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C1D1A315A5CCC5007C6F94 /* Foundation.framework */; };
 		69C1D1A715A5CCC5007C6F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C1D1A615A5CCC5007C6F94 /* main.m */; };
 		69C1D1AB15A5CCC5007C6F94 /* CivilizationModeller.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69C1D1AA15A5CCC5007C6F94 /* CivilizationModeller.1 */; };
+		69C1D1B315A5CE06007C6F94 /* CivilizationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C1D1B215A5CE06007C6F94 /* CivilizationController.m */; };
+		69C1D1B615A5CFA2007C6F94 /* CivilizationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C1D1B515A5CFA2007C6F94 /* CivilizationNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		69C1D1A615A5CCC5007C6F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69C1D1A915A5CCC5007C6F94 /* CivilizationModeller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CivilizationModeller-Prefix.pch"; sourceTree = "<group>"; };
 		69C1D1AA15A5CCC5007C6F94 /* CivilizationModeller.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CivilizationModeller.1; sourceTree = "<group>"; };
+		69C1D1B115A5CE06007C6F94 /* CivilizationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CivilizationController.h; sourceTree = "<group>"; };
+		69C1D1B215A5CE06007C6F94 /* CivilizationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CivilizationController.m; sourceTree = "<group>"; };
+		69C1D1B415A5CFA2007C6F94 /* CivilizationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CivilizationNode.h; sourceTree = "<group>"; };
+		69C1D1B515A5CFA2007C6F94 /* CivilizationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CivilizationNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				69C1D1A615A5CCC5007C6F94 /* main.m */,
+				69C1D1B115A5CE06007C6F94 /* CivilizationController.h */,
+				69C1D1B215A5CE06007C6F94 /* CivilizationController.m */,
+				69C1D1B415A5CFA2007C6F94 /* CivilizationNode.h */,
+				69C1D1B515A5CFA2007C6F94 /* CivilizationNode.m */,
 				69C1D1AA15A5CCC5007C6F94 /* CivilizationModeller.1 */,
 				69C1D1A815A5CCC5007C6F94 /* Supporting Files */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				69C1D1A715A5CCC5007C6F94 /* main.m in Sources */,
+				69C1D1B315A5CE06007C6F94 /* CivilizationController.m in Sources */,
+				69C1D1B615A5CFA2007C6F94 /* CivilizationNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
